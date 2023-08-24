@@ -1,0 +1,12 @@
+.popup__input {
+    display: grid;
+    grid-template-rows: 30px 24px 27px 24px 6px 50px;
+    grid-template-areas: 
+    'none'
+    'none'
+    'none'
+    'none'
+    '.'
+    'button';
+    row-gap: 5px;
+}

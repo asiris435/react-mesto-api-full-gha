@@ -1,0 +1,5 @@
+.form__submit-button_invalid {
+    background-color: rgb(144, 144, 144, 1);
+    cursor: none;
+    pointer-events: none;
+}

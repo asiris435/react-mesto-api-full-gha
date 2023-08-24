@@ -1,0 +1,12 @@
+.header__unlogin {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-left: 25px;
+}
+
+.header__unlogin:hover {
+    opacity: 0.8;
+}

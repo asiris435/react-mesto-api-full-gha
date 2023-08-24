@@ -1,0 +1,16 @@
+.profile__info-groupe {
+    display: flex;
+    width: 100%;
+}
+
+@media screen and (max-width: 899px) {
+    .profile__info-groupe {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .profile__info-groupe {
+        padding-left: 33px;
+    }
+}

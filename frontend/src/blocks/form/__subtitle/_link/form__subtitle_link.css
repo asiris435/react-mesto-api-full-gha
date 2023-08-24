@@ -1,0 +1,8 @@
+.form__subtitle_link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.form__subtitle_link:hover {
+    opacity: 0.8;
+}

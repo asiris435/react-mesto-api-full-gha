@@ -1,0 +1,12 @@
+.elements__groupe {
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 67% 1fr;
+    grid-template-areas:
+    'title like'
+    'title counter';
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    row-gap: 3px;
+}

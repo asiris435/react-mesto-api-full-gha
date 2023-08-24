@@ -1,0 +1,6 @@
+.elements__card {
+    display: grid;
+    grid-template-columns: minmax(282px, 1fr);
+    grid-template-rows: minmax(282px, 1fr) 79px;
+    position: relative;
+}

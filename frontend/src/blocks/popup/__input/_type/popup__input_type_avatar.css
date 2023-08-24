@@ -1,0 +1,10 @@
+.popup__input_type_avatar {
+    display: grid;
+    grid-template-rows: 30px 24px 6px 50px;
+    grid-template-areas: 
+    'none'
+    'none'
+    '.'
+    'button';
+    row-gap: 5px;
+}

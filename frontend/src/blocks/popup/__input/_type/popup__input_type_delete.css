@@ -1,0 +1,6 @@
+.popup__input_type_delete {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-areas: 
+    'button';
+}

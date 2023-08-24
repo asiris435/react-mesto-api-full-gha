@@ -1,0 +1,10 @@
+.root__section-header {
+    width: 68.75%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 539px) {
+    .root__section-header {
+        width: 100%;
+    }
+}
