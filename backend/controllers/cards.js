@@ -42,7 +42,7 @@ const deleteCard = (req, res, next) => {
     .orFail()
     .then((card) => {
       if (!card.owner.equals(req.user._id)) {
-        next(new ForbiddenError('Карточка другого пользователя.'));
+        throw new ForbiddenError('Карточка другого пользователя.');
       }
       Card.deleteOne(card)
         .orFail()
