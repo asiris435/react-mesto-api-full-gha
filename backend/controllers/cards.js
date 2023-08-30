@@ -52,8 +52,6 @@ const deleteCard = (req, res, next) => {
         .catch((err) => {
           if (err instanceof mongoose.Error.DocumentNotFoundError) {
             next(new NotFoundError('Карточка не найдена.'));
-          } else if (err instanceof mongoose.Error.CastError) {
-            next(new BadRequestError('Некорректный id карточки.'));
           } else {
             next(err);
           }
@@ -62,6 +60,8 @@ const deleteCard = (req, res, next) => {
     .catch((err) => {
       if (err instanceof mongoose.Error.DocumentNotFoundError) {
         next(new NotFoundError('Карточка не найдена.'));
+      } else if (err instanceof mongoose.Error.CastError) {
+        next(new BadRequestError('Некорректный id карточки.'));
       } else {
         next(err);
       }
